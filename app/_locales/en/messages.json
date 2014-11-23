@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "markticle",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Save for later",
+    "description": "The description of the application"
+  }
+}
