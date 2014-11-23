@@ -20,7 +20,7 @@
       "38": "images/icon-38.png"
     },
     "default_title": "markticle",
-    "default_popup": "popup.html"
+    "default_popup": "index.html"
   },
   "content_scripts": [
     {
@@ -32,7 +32,8 @@
         "styles/main.css"
       ],
       "js": [
-        "scripts/contentscript.js"
+        "bower_components/jquery/jquery.min.js",
+        "scripts/popup.js"
       ],
       "run_at": "document_end",
       "all_frames": false
